@@ -1,0 +1,13 @@
+.heading {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-heading);
+}
+
+.paymentContainer:last-child {
+  padding-block-end: 2em;
+}
+
+.paymentFormContainer {
+  display: flex;
+  place-content: center;
+}

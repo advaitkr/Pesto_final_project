@@ -1,0 +1,39 @@
+.expertList {
+  margin-block-start: 2em;
+  --min: 60ch;
+  --gap: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  padding-block-end: 2em;
+}
+
+.expertList > div {
+  flex: 1 1 var(--min);
+}
+
+.expertCard {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  border-radius: 10px;
+}
+
+.description {
+  padding: 2em;
+}
+
+.slot {
+  padding: 2em 4em;
+  background-color: var(--accent-color);
+  border-radius: 0 10px 10px 0;
+}
+
+.description > h3 {
+  font-weight: var(--fw-bold);
+}
+
+.slot > .time {
+  font-weight: var(--fw-bold);
+}
